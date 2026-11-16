@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Anak TKJ</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e5eaf1;
+    padding: 30px 15px;
+}
+
+.cv {
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    box-shadow: 0 5px 20px #0002;
+}
+
+.sidebar {
+    background: #102b4e;
+    color: white;
+    padding: 30px 23px;
+}
+
+.nama {
+    border-bottom: 2px solid #38bdf8;
+    padding-bottom: 20px;
+}
+
+.nama h2 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.nama p {
+    color: #38bdf8;
+    font-size: 13px;
+}
+
+.sidebar h3 {
+    color: #38bdf8;
+    margin: 25px 0 12px;
+    border-bottom: 1px solid #38bdf8;
+    padding-bottom: 7px;
+}
+
+.sidebar p,
+.sidebar li {
+    font-size: 13px;
+    line-height: 1.9;
+}
+
+.sidebar ul {
+    padding-left: 18px;
+}
+
+.content {
+    padding: 35px 30px;
+}
+
+.content h1 {
+    color: #102b4e;
+    font-size: 29px;
+}
+
+.jurusan {
+    color: #0284c7;
+    font-weight: bold;
+    margin: 8px 0 28px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    color: #0284c7;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 8px;
+    margin-bottom: 13px;
+}
+
+.section p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.item {
+    margin-bottom: 16px;
+}
+
+.item h4 {
+    color: #102b4e;
+    margin-bottom: 5px;
+}
+
+.item small {
+    color: #0284c7;
+    font-weight: bold;
+}
+
+.item ul {
+    margin: 8px 0 0 20px;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.tombol {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: #0284c7;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.tombol:hover {
+    background: #102b4e;
+}
+
+@media(max-width:650px) {
+    .cv {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media print {
+    body {
+        padding: 0;
+        background: white;
+    }
+
+    .cv {
+        box-shadow: none;
+    }
+
+    .tombol {
+        display: none;
+    }
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <aside class="sidebar">
+
+        <div class="nama">
+            <h2>FAHRURROZI</h2>
+            <p>FRESH GRADUATE TKJ</p>
+        </div>
+
+        <h3>KONTAK</h3>
+        <p>☎ 081234567890</p>
+        <p>✉ rozi@gmail.com</p>
+        <p>⌖ JEPANG </p>
+
+        <h3>KEAHLIAN</h3>
+        <ul>
+            <li>Instalasi Windows</li>
+            <li>Perakitan Komputer</li>
+            <li>Crimping Kabel LAN</li>
+            <li>Konfigurasi MikroTik</li>
+            <li>IP Address</li>
+            <li>Excel</li>
+            <li>Word</li>
+        </ul>
+
+        <h3>SOFT SKILL</h3>
+        <ul>
+            <li>Disiplin</li>
+            <li>Komunikasi</li>
+            <li>Kerja Sama Tim</li>
+            <li>Bertanggung Jawab</li>
+            <li>Mudah Beradaptasi</li>
+        </ul>
+
+        <h3>BAHASA</h3>
+        <p>Bahasa Indonesia</p>
+        <p>Bahasa Inggris Dasar</p>
+
+    </aside>
+
+    <main class="content">
+
+        <h1>CURRICULUM VITAE</h1>
+        <p class="jurusan">TEKNIK KOMPUTER DAN JARINGAN</p>
+
+        <div class="section">
+            <h3>PROFIL SINGKAT</h3>
+            <p>
+                Saya merupakan lulusan SMK jurusan Teknik Komputer
+                dan Jaringan (TKJ) yang memiliki minat besar dalam
+                bidang teknologi informasi. Memiliki kemampuan
+                dasar dalam instalasi komputer, konfigurasi jaringan,
+                perakitan PC, dan troubleshooting hardware maupun
+                software. Saya pribadi yang disiplin, bertanggung
+                jawab, serta memiliki semangat belajar tinggi.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>PENDIDIKAN</h3>
+            <div class="item">
+                <h4>SMKN2 PANYABUNGAN</h4>
+                <small>2026 - 2029 </small>
+                <p>Jurusan Teknik Komputer dan Jaringan</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>PENGALAMAN PKL</h3>
+            <div class="item">
+                <h4>PKL DI JERMAN</h4>
+                <small>2027- 2028</small>
+                <ul>
+                    <li>Instalasi sistem operasi Windows.</li>
+                    <li>Perawatan dan perbaikan komputer.</li>
+                    <li>Instalasi jaringan LAN.</li>
+                    <li>Troubleshooting perangkat komputer.</li>
+                    <li>Konfigurasi perangkat jaringan.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>KEMAMPUAN TEKNIS</h3>
+            <div class="item">
+                <h4>Hardware</h4>
+                <p>Perakitan PC, pemasangan komponen dan perawatan komputer.</p>
+            </div>
+            <div class="item">
+                <h4>Networking</h4>
+                <p>LAN, WLAN, TCP/IP, router, switch dan MikroTik dasar.</p>
+            </div>
+            <div class="item">
+                <h4>Software</h4>
+                <p>Windows, Microsoft Office dan aplikasi komputer.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>SERTIFIKAT</h3>
+            <p>
+                Sertifikat Praktik Kerja Lapangan (PKL).<br>
+                Sertifikat Kompetensi TKJ.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>TUJUAN KARIER</h3>
+            <p>
+                Mengembangkan kemampuan dan pengalaman dalam
+                bidang Teknologi, Teknisi Komputer dan
+                Teknisi Jaringan.
+            </p>
+        </div>
+
+    </main>
+</div>
+
+
+</body>
+</html>
+
